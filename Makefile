@@ -1,4 +1,4 @@
-SOURCES = src/main.c
+SOURCES = src/main.c src/cli/help.c src/brightness.c
 CFLAGS = -std=c23 -Wall -Wextra -Wpedantic -Werror
 
 default: build
